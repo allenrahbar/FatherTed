@@ -28,7 +28,7 @@ h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
-.home-container {
+.container {
     width: 60vh;
     height: 60vh;
     display: flex;
