@@ -64,6 +64,9 @@ center {
 }
 
 /* style for end page */
+#final-score {
+    text-align: center;
+}
 .end-form {
     width: 100%;
     display: flex;
@@ -99,7 +102,7 @@ input {
     .fas {
         margin-left: 1rem;
         font-size: 1.5;
-        
+
     }
 
 /* css to not allow to click on buttons */
