@@ -71,6 +71,25 @@ center {
     align-items: center;
     max-width: 20rem;
 }
+input {
+    margin-bottom: 1rem;
+    width: 20rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background: rgb(255, 255, 44);
+    }
+
+    input::placeholder {
+        color:rgb(28, 26, 26)
+    }
+    #username {
+        margin-bottom: 2rem;
+        width: 100%;
+        outline: none;
+    }
+
+    
 
 /* css to not allow to click on buttons */
 .button[disabled]:hover {
