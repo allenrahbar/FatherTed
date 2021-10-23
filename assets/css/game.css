@@ -47,6 +47,23 @@
     text-align: center;
 }
 
+/* style for progress bar  */
+
+#progress-bar {
+    width: 15rem;
+    height: 2rem;
+    border: 0.15rem solid rgb(0, 0, 0);
+    margin-top: 1.5rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progress-bar-full {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    width: 0%;
+}
+
 @media screen and (max-width: 768px) {
     .choices {
         min-width: 30rem;
