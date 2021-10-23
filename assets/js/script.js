@@ -83,12 +83,12 @@ choice4: 'Greece',
 answer: 4,
 }
 ]
-
+// Total number of score you can get plus total number of questions
 const SCORE_POINTS = 100;
-const MAX_QUESTIONS = 4;
+const MAX_QUESTIONS = 10;
 
-// Function to start the game
 
+// function to start game
 startGame = () => {
     questionCounter = 0
     score = 0
@@ -101,6 +101,8 @@ getNewQuestion = () => {
         localStorage.setItem('mostRecentScore', score)
         return window.location.assign('/end.html')
     }
+
+    // function to calculate the progress in the progress bar
     questionCounter++ ;
     progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
     progressBarFull.getElementsByClassName.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`
