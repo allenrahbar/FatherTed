@@ -34,6 +34,19 @@
     background: linear-gradient(32deg, rgba(230,29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
 }
 
+/* Style for display */
+#display {
+    display: flex;
+    justify-content: space-between;
+}
+.display-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+.main-text {
+    text-align: center;
+}
+
 @media screen and (max-width: 768px) {
     .choices {
         min-width: 30rem;
