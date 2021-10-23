@@ -1,0 +1,41 @@
+/* style for game page */
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 4px;
+    background:rgb(250, 250, 0);
+    font-size: 2rem;
+    min-width: 60rem;
+}
+
+.choices:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(10, 10, 0, 0.7);
+    transition: transform 150ms;
+    transform: scale(1.02);
+}
+.choice-options {
+    padding: 1rem 1.5rem;
+}
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+/* css for when you add the correct and incorrect answers */
+.correct {
+    background: linear-gradient(32deg, rgba(11, 233, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorrect {
+    background: linear-gradient(32deg, rgba(230,29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+@media screen and (max-width: 768px) {
+    .choices {
+        min-width: 30rem;
+    }
+}
