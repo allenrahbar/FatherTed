@@ -89,7 +89,18 @@ input {
         outline: none;
     }
 
-    
+    #end-text {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #save-score-button{
+        border: none;
+    }
+    .fas {
+        margin-left: 1rem;
+        font-size: 1.5;
+        
+    }
 
 /* css to not allow to click on buttons */
 .button[disabled]:hover {
