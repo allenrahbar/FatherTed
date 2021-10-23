@@ -134,14 +134,20 @@ choice.forEach(choice => {
         // function to calculate score
 
         if(classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
         selectedChoice.parentElement.classList.add(classToApply)
         // when you click right or wrong gives time to show answer and brings up new question
         setTimeout(() => {
-            selectedChoice.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
         },1000)
     })
 })
 
+incrementScore = num => {
+    score += num;
+    scoreText.innerText = score
+}
+
+startGame()
