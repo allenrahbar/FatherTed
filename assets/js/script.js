@@ -1,5 +1,5 @@
 // declaring variables for JS 
-const questions = document.querySelector('#question');
+const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
 const progressText = document.querySelector('#progress-text');
 const scoreText = document.querySelector('#score');
@@ -11,6 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
+// Questions for the quiz
 let questions = [
     { question: 'When was ScreenCloud founded?',
         choice1: '2014',
@@ -123,7 +124,7 @@ getNewQuestion = () => {
 }
 
 // function to show if the answer is true or false and to show the correct color from the css
-choice.forEach(choice => {
+choices.forEach(choice => {
     choice.addEventListener('click', x => {
         if(!acceptingAnswers) return;
         acceptingAnswers = false;
