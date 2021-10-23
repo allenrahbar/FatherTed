@@ -122,3 +122,26 @@ getNewQuestion = () => {
     acceptingAnswers = true ;
 }
 
+// function to show if the answer is true or false and to show the correct color from the css
+choice.forEach(choice => {
+    choice.addEventListener('click', x => {
+        if(!acceptingAnswers) return;
+        acceptingAnswers = false;
+        const selectedChoice = x.target;
+        const selectedAnswer = selectedChoice.dataset ['number'];
+
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
+        // function to calculate score
+
+        if(classToApply === 'correct') {
+            incrementScore(SCORE_POINTS)
+        }
+        selectedChoice.parentElement.classList.add(classToApply)
+        // when you click right or wrong gives time to show answer and brings up new question
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+        },1000)
+    })
+})
+
