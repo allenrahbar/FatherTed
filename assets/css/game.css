@@ -63,9 +63,17 @@
     background: rgb(0, 0, 0);
     width: 0%;
 }
-
+/* media queries for main page */
 @media screen and (max-width: 768px) {
     .choices {
         min-width: 30rem;
+    }
+}
+@media  screen and (max-width: 350px) {
+    .choices {
+    font-size: 1rem;
+}
+    #question {
+        font-size: 1rem;
     }
 }
