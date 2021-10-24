@@ -100,7 +100,7 @@ startGame = () => {
 getNewQuestion = () => {
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('https://github.com/allenrahbar/ScreenCloudQuiz/end.html')
+        return window.location.assign('https://allenrahbar.github.io/ScreenCloudQuiz/end.html')
     };
 
     // function to calculate the progress in the progress bar
