@@ -22,6 +22,7 @@ h1 {
     font-size: 4rem;
     color:rgb(28, 26, 26);
     margin-bottom: 3rem;
+    text-align: center;
 }
 
 h2 {
@@ -111,3 +112,7 @@ input {
     box-shadow: none;
     transform: none;
 }
+
+/* media queries for mobile */
+
+
