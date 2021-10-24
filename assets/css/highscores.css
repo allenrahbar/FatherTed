@@ -1,0 +1,8 @@
+#high-scores-list {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+#high-scores {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
