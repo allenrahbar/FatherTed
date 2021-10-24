@@ -29,6 +29,6 @@ saveHighScore = x => {
 highScores.splice(5)
 //Code learned from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 localStorage.setItem('highScores', JSON.stringify(highScores))
-window.location.assign('/')
+window.location.assign('https://github.com/allenrahbar/ScreenCloudQuiz/blob/main/highscores.html')
 
 }
