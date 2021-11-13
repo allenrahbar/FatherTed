@@ -11,7 +11,7 @@ https://www.w3schools.com/css/css3_box-sizing.asp */
     font-family: 'Lato', sans-serif;
 }
 #hero-image {
-    background: url(../images/hero-image.png);
+    background: url(../images/FatherTedQuiz.jpeg);
     background-size: cover;
     opacity: 0.9;
     height: 100vh;
