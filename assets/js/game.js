@@ -69,10 +69,12 @@ choice3: 'Come for lent and torture them',
 choice4: 'They are happy with the short mass',
 answer: 1,
 } 
-,{ question: "Dougal can't bless himself properly",
-choice1: true,
-choice2: false,
-answer: true,
+,{ question: "What brought on death like symptoms on Jack when he drank it ?",
+choice1: 'Floor Polish',
+choice2: 'Window lean',
+choice3: 'Furniture polish',
+choice4: 'Petrol',
+answer: 1,
 
 } 
 ,{ question: 'Above all drinks what should you not give father Jack',
@@ -80,7 +82,7 @@ choice1: 'Tea',
 choice2: 'Water',
 choice3: 'Orange juice',
 choice4: 'Milk',
-answer: 4,
+answer: 2,
 }
 ]
 // Total number of score you can get plus total number of questions
